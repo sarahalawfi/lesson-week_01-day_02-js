@@ -1,0 +1,47 @@
+Problem 1:
+
+var numOfChild = 4;
+var partnerName = "Saqer ... Unreal";
+var jobTitle= "Specialist in cyber security";
+var gLocation="Riyadh";
+
+console.log("I will be a "+jobTitle+" in "+gLocation+",and married to "+partnerName+" with "+numOfChild+" kids");
+
+Problem 2:
+
+var currentYear = 2019;
+var birthYear = 1995;
+console.log("They are either "+((currentYear-birthYear)-1)+" or "+(currentYear-birthYear));
+
+Problem 3:
+
+var myAge=23;
+var maxAge=90;
+var numPerDay = 3;
+var total = ((365*numPerDay)*(maxAge-myAge));
+
+console.log("You will need  " + total +" to last you until the ripe old age of "+maxAge);
+
+
+
+Problem 4:
+
+var circleRadius = 5;
+var circumference = (2*(circleRadius)*3.14);
+console.log("The circumference is  "+circumference);
+
+var area = ((circleRadius*circleRadius)*3.14);
+console.log("The area is  "+area);
+
+Problem 5:
+
+var celsiusTemperature = 18;
+
+var F = ((1.8*celsiusTemperature) + 32);
+console.log(celsiusTemperature+"°C is " + F +"°F");
+
+var fahrenheitTemperature = 65;
+var C =((fahrenheitTemperature-32)/1.8);
+console.log(fahrenheitTemperature+"°F is " + C +"°C");
+
+// or console.log((F-32)/1.8);
